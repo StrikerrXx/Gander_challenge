@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,35 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# Aircraft Dashboard
+
+A simple single-page application built with **Next.js** and **Tailwind CSS** that helps dispatchers quickly answer:
+
+“How many of my aircraft are ready to fly right now, and which ones are they?”
+
+## Features
+
+- View a list of aircraft with status and location
+- Filter by tail number, model, and status
+- Inline status editing with dropdowns
+- Persist status changes using `localStorage`
+- Interactive map of aircraft locations with Leaflet
+- Clean, responsive UI styled with Tailwind
+
+## Tech Stack
+
+- Next.js (App Router)
+- Tailwind CSS
+- TypeScript
+- Leaflet (via react-leaflet)
+- LocalStorage for state persistence
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/StrikerXx/aircraft-dashboard.git
+cd aircraft-dashboard
+npm install
+npm run dev
+>>>>>>> e83391524b55a8a30f7246ce461dc69189024def
