@@ -24,7 +24,7 @@ A simple single-page application built with **Next.js** and **Tailwind CSS** tha
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/aircraft-dashboard.git
+git clone https://github.com/StrikerXx/aircraft-dashboard.git
 cd aircraft-dashboard
 npm install
 npm run dev
